@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+/* 
+body {
+  background-color: rgba(54, 54, 239, 0.907);
+} */
+/* Biz boshladik */
+
+.form {
+  width: 100%;
+  background-color: rgb(213, 210, 210);
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid rgb(116, 115, 115);
+}
+
+.input {
+  width: 80%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #fff;
+}
+
+#select {
+  margin: 0 8px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: #fff;
+  font-size: 15px;
+}
+
+#submit {
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  right: 0;
+  border-radius: 0 3px 3px 0;
+  background-color: #fff;
+  font-size: 15px;
+  color: rgb(0, 141, 0);
+}
+p {
+  background-color: transparent !important;
+}
+/* Ikkinchi qismi ketti */
+
+.table__top,
+.table__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.topText__left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.topText__left p {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 29px;
+}
+
+.text__num {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: transparent !important;
+}
+.topText__right p {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 29px;
+}
+.text__num p {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 29px;
+}
+
+/* Modal bu */
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.check_boxx {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check_boxx input {
+  height: 20px; /* moslashtirish mumkin */
+}
+
+.check_boxx p {
+  margin: 0;
+  line-height: 20px; /* input bilan balandlikni tenglashtirish */
+}
+
+/* inputni ichi */
+
+.name__1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+#first__inpt,
+#first__inpt2 {
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(116, 115, 115);
+}
+
+#select2 {
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.del-btn {
+  width: 40px;
+  height: 100%;
+  height: 25px;
+  font-size: 13px;
+  background-color: red;
+  color: #fff;
+  transition: 0.4s;
+  &:hover {
+    background-color: red;
+  }
+  &:active {
+    background-color: black;
+  }
+}
